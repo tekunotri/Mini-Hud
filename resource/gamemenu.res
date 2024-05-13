@@ -3,7 +3,7 @@
 	"ConsoleButton"
 	{
 		"label" "CONSOLE"
-		"command" "engine toggleconsole"
+		"command" "engine toggleconsole; echo Mini Hud; echo updated by techno, 13/05/24"
 	}
 	"ScoreBoardButton"
 	{
@@ -24,6 +24,11 @@
 	{
 		"label" "#MMenu_SteamWorkshop"
 		"command" "engine OpenSteamWorkshopDialog"
+	}
+	"DemoUI"
+	{
+		"label" "DemoUI"
+		"command" "engine demoui"
 	}
 	"TrainingButton"
 	{

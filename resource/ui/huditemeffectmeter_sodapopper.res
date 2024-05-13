@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"	
-		"ypos"			"c-50"	
+		"xpos"			"c-50"
+		"ypos"			"c-51"
 		"wide"			"100"
 		"tall"			"100"
 		"MeterFG"		"White"
@@ -36,7 +36,7 @@
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -44,7 +44,7 @@
 		"ypos"					"89"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"1"				
+		"tall"					"1"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -53,5 +53,5 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"bgcolor_override"		"TransparentBlack"
-	}					
+	}
 }

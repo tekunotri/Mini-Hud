@@ -1,3 +1,4 @@
+#base "itemmodelpanel.res"
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -9,17 +10,17 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-		
+
 		"team1_player_base_offset_x"		"-260"
 		"team1_player_base_y"				"464"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-15"
-		
+
 		"team2_player_base_offset_x"		"110"
 		"team2_player_base_y"				"464"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"-15"
-		
+
 		"playerpanels_kv"
 		{
 			"visible"		"0"
@@ -114,7 +115,7 @@
 				"visible"			"1"
 				"enabled"			"1"
 			}
-			
+
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -154,7 +155,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 
 				if_mvm
 				{
@@ -165,7 +166,7 @@
 					"image"			"../vgui/hud_connecting"
 				}
 			}
-			
+
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
@@ -179,13 +180,13 @@
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
-				
+
 				if_mvm
 				{
 					"visible"		"1"
 				}
 			}
-			
+
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
@@ -196,7 +197,7 @@
 				"wide"				"26"
 				"tall"				"32"
 				"visible"			"1"
-				"enabled"			"1"	
+				"enabled"			"1"
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
@@ -221,16 +222,16 @@
 
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
-			
+
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
-				
+
 				if_mvm
 				{
 					"visible"		"1"
-				}	
+				}
 			}
-			
+
 			"ReadyImage"
 			{
 				"ControlName"		"ImagePanel"
@@ -250,9 +251,9 @@
 				if_mvm
 				{
 					"visible"		"1"
-				}	
+				}
 			}
-			
+
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
@@ -331,25 +332,25 @@
 				"tall"		"35"
 			}
 		}
-		
+
 		if_mvm
 		{
 			"xpos"					"c-250"
 			"ypos"					"6"
 			"wide"					"500"
 			"tall"					"180"
-	
+
 			"team1_player_delta_x"			"52"
-		}		
+		}
 	}
-	
+
 	"topbar"
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
 		"tall"			"0"
-		
+
 		if_mvm
 		{
 			"tall"			"26"
@@ -371,7 +372,7 @@
 		"visible"		"0"
 		"ypos"			"480"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -386,11 +387,11 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 175"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-		
+
 		if_mvm
 		{
 			//"visible"		"0"
@@ -414,7 +415,7 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"HudFontSmall"
-		
+
 		if_mvm
 		{
 			"xpos"			"c-190"
@@ -440,13 +441,13 @@
 		"font"			"HudFontSmall"
 		//"wrap"			"1"
 		//"centerwrap"	"1"
-	
+
 		if_mvm
 		{
 			"visible"		"1"
-		}	
+		}
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -464,7 +465,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
-		
+
 	}
 	"SwitchCamModeLabel"
 	{
@@ -502,79 +503,4 @@
 		"fieldName"		"TipLabel"
 		"visible"		"0"
 	}
-	"itempanel"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"itempanel"
-		"xpos"			"r90"
-		"ypos"			"r90"
-		"zpos"			"1"
-		"wide"			"90" //"270"
-		"tall"			"90"
-		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
-		
-		"model_xpos"	"-8"
-		"model_ypos"	"50"
-		"model_tall"	"38"
-		"model_wide"	"100"
-		
-		"text_xpos"		"0"
-		"text_ypos"		"12"
-		"text_wide"		"90"
-		"text_center"	"1" //"1"
-		"max_text_height"	"70"
-		
-		"padding_height"	"40"
-		"resize_to_text"	"1"
-		"text_forcesize"	"3"		
-		
-		"itemmodelpanel"
-		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
-			"useparentbg"		"1"
-		}
-		
-		"ItemLabel"
-		{	
-			"ControlName"	"Label"
-			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"4"
-			"ypos"			"1"
-			"zpos"			"1"
-			"wide"			"82" //"270"
-			"tall"			"12"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-		
-		"attriblabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"DefaultSmall" //"ItemFontAttribLarge"
-			"xpos"			"2"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"90"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
-		}
-	}	
 }

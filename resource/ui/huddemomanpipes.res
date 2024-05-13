@@ -13,7 +13,7 @@
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 0"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -37,15 +37,15 @@
 	}
 
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"50"
+		"xpos"					"25"
 		"ypos"					"75"
 		"zpos"					"2"
 		"wide"					"50"
-		"tall"					"1"				
+		"tall"					"1"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -54,8 +54,8 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"bgcolor_override"		"TransparentBlack"
-	}				
-		
+	}
+
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -66,7 +66,7 @@
 		"wide"			"50"
 		"tall"			"25"
 		"visible"		"1"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -80,9 +80,9 @@
 			"image"			"../hud/ico_stickybomb_red"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red"
-			"teambg_3"		"../hud/ico_stickybomb_blue"	
-		}	
-		
+			"teambg_3"		"../hud/ico_stickybomb_blue"
+		}
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -115,9 +115,9 @@
 			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}		
+		}
 	}
-	
+
 	"NoPipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -128,7 +128,7 @@
 		"wide"			"50"
 		"tall"			"25"
 		"visible"		"0"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -142,7 +142,7 @@
 			"image"			"../hud/ico_stickybomb_red_faded"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red_faded"
-			"teambg_3"		"../hud/ico_stickybomb_blue_faded"	
+			"teambg_3"		"../hud/ico_stickybomb_blue_faded"
 		}
 
 		"NumPipesLabel"
@@ -177,6 +177,6 @@
 			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}			
-	}				
+		}
+	}
 }

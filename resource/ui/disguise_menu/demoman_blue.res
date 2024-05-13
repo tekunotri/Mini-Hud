@@ -1,14 +1,14 @@
 "Resource/UI/disguise_menu/demoman_red.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemName"
 		"font"			"miniHudFont"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
@@ -16,8 +16,8 @@
 		"fgcolor"		"blueblue"
 		"labelText"		"#TF_Class_Name_Demoman"
 	}
-	
-	"ClassIcon"	
+
+	"ClassIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ClassIcon"
@@ -26,8 +26,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-		
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -36,9 +36,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"NewNumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"miniHudFont"
@@ -53,9 +53,9 @@
 		"fgcolor"		"blueblue"
 		"labelText"		"1"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"miniHudFont"

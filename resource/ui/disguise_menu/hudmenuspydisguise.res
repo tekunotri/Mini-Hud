@@ -1,6 +1,6 @@
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -9,9 +9,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"wide"			"0"
@@ -19,19 +19,19 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}	
-	
+	}
+
 	"ToggleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
 		"font"			"miniHudFont"
@@ -49,9 +49,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"wide"			"0"
@@ -59,7 +59,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -69,7 +69,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"class_item_red_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -80,8 +80,8 @@
 		"wide"			"65"
 		"tall"			"12"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -93,7 +93,7 @@
 		"tall"			"12"
 		"visible"		"0"
 	}
-	
+
 	"class_item_red_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -104,8 +104,8 @@
 		"wide"			"65"
 		"tall"			"12"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -117,7 +117,7 @@
 		"tall"			"12"
 		"visible"		"0"
 	}
-	
+
 	"class_item_red_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -128,8 +128,8 @@
 		"wide"			"65"
 		"tall"			"12"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -141,7 +141,7 @@
 		"tall"			"12"
 		"visible"		"0"
 	}
-	
+
 	"class_item_red_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -149,11 +149,11 @@
 		"xpos"			"0"
 		"ypos"			"56"
 		"zpos"			"2"
-		"wide"			"65"
+		"wide"			"130"
 		"tall"			"12"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -161,11 +161,11 @@
 		"xpos"			"0"
 		"ypos"			"56"
 		"zpos"			"2"
-		"wide"			"65"
+		"wide"			"130"
 		"tall"			"12"
 		"visible"		"0"
 	}
-	
+
 	"class_item_red_5"
 	{
 		"ControlName"	"EditablePanel"
@@ -176,8 +176,8 @@
 		"wide"			"65"
 		"tall"			"12"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_5"
 	{
 		"ControlName"	"EditablePanel"
@@ -189,7 +189,7 @@
 		"tall"			"12"
 		"visible"		"0"
 	}
-	
+
 	"class_item_red_6"
 	{
 		"ControlName"	"EditablePanel"
@@ -200,8 +200,8 @@
 		"wide"			"65"
 		"tall"			"12"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_6"
 	{
 		"ControlName"	"EditablePanel"
@@ -213,7 +213,7 @@
 		"tall"			"12"
 		"visible"		"0"
 	}
-	
+
 	"class_item_red_7"
 	{
 		"ControlName"	"EditablePanel"
@@ -224,8 +224,8 @@
 		"wide"			"65"
 		"tall"			"12"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_7"
 	{
 		"ControlName"	"EditablePanel"
@@ -237,7 +237,7 @@
 		"tall"			"12"
 		"visible"		"0"
 	}
-	
+
 	"class_item_red_8"
 	{
 		"ControlName"	"EditablePanel"
@@ -248,8 +248,8 @@
 		"wide"			"65"
 		"tall"			"12"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_8"
 	{
 		"ControlName"	"EditablePanel"
@@ -261,7 +261,7 @@
 		"tall"			"12"
 		"visible"		"0"
 	}
-	
+
 	"class_item_red_9"
 	{
 		"ControlName"	"EditablePanel"
@@ -272,8 +272,8 @@
 		"wide"			"65"
 		"tall"			"12"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_9"
 	{
 		"ControlName"	"EditablePanel"
@@ -286,7 +286,7 @@
 		"visible"		"0"
 	}
 
-	"NumberBg1"	
+	"NumberBg1"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -295,9 +295,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"NumberLabel1"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"miniHudFont"
@@ -321,9 +321,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"NumberLabel2"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"miniHudFont"
@@ -337,8 +337,8 @@
 		"textAlignment"	"east"
 		"labelText"		"2"
 	}
-	
-	"NumberBg3"	
+
+	"NumberBg3"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -347,9 +347,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"NumberLabel3"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"miniHudFont"
