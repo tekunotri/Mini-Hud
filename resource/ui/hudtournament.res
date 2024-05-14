@@ -667,24 +667,4 @@
 		"textAlignment"		"center"
 	}
 
-	"CountdownLabelShadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"1"
-		"ypos"			"-1"
-		"wide"			"40"
-		"tall"			"40"
-		"zpos"			"1"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
-		"fgcolor"		"Black"
-		"pin_to_sibling"	"CountdownLabel"
-	}
 }
