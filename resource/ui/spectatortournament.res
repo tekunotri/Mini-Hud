@@ -1,4 +1,4 @@
-#base "itemmodelpanel.res"
+#base "hudinspectpanel.res"
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"

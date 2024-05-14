@@ -2757,7 +2757,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"8"
-				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2768,7 +2767,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"9"
-				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2779,7 +2777,16 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"12"
-				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2790,9 +2797,18 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"7"
-				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
+			}
+		}
+		ItemFontAttribSmallv2
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"antialias" "1"
+				"weight"	"500"
 			}
 		}
 		"ItemFontAttribSmall"
@@ -2801,7 +2817,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"8"
-				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -2812,7 +2827,16 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"ItemFontAttribLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
 			}

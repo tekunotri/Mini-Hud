@@ -1,89 +1,14 @@
+#base "hudinspectpanel.res"
 "Resource/UI/FreezePanel_Basic.res"
 {
-
-	"itempanel"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
-		"zpos"			"1"
-		"wide"			"270"
-		"tall"			"180"
-		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
-		
-		"model_xpos"		"10"
-		"model_center_y"	"1"
-		"model_wide"		"90"
-		"model_tall"		"55"
-		
-		"text_xpos"		"90"
-		"text_wide"		"170"
-		"text_center"	"1"
-		
-		"max_text_height"	"90"
-		"padding_height"	"40"
-		"resize_to_text"	"1"
-		"text_forcesize"	"2"
-		
-		"itemmodelpanel"
-		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
-			"useparentbg"		"1"
-		}
-		
-		"ItemLabel"
-		{	
-			"ControlName"	"Label"
-			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"10"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"9"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-		
-		"attriblabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
-		}
-	}		
-	
-	"FreezePanelBase"	
+	"FreezePanelBase"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
 		"xpos"			"r270"
-		"ypos"			"93"		
-		"wide"			"270"		
-		"tall"			"193"		
+		"ypos"			"93"
+		"wide"			"270"
+		"tall"			"193"
 		"visible"		"1"
 		"ForceStereoRenderToFrameBuffer" "1"
 
@@ -99,16 +24,16 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"	
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 			"alpha"			"200" //HUD BG TeamColorAlpha
 		}
-		
+
 		"FreezeLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"DefaultSmall"
@@ -126,8 +51,8 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
-		
-		"FreezePanelHealth"		
+
+		"FreezePanelHealth"
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
@@ -137,16 +62,16 @@
 			"wide"			"60"
 			"tall"			"31"
 			"visible"		"1"
-			"enabled"		"1"	
+			"enabled"		"1"
 			"HealthBonusPosAdj"	"9"
 			"HealthDeathWarning"	"0.49"
 			"TFFont"		"HudFontSmall"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"		"white" //"HudOffWhite"
-		}	
+		}
 
 		"FreezeLabelKiller"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"HudFontSmall"
@@ -175,10 +100,10 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
-		}	
-		
+		}
+
 		"NemesisSubPanel"
 		{
 			"ControlName"		"EditablePanel"
@@ -202,11 +127,11 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/color_panel_brown"
-				"scaleImage"		"1"	
+				"scaleImage"		"1"
 				"src_corner_height"		"23"
 				"src_corner_width"		"23"
-				"draw_corner_width"		"0"	
-				"draw_corner_height" 	"0"	
+				"draw_corner_width"		"0"
+				"draw_corner_height" 	"0"
 			}
 			"NemesisIcon"
 			{
@@ -220,10 +145,10 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/leaderboard_nemesis_freezecam"
-				"scaleImage"	"1"	
-			}		
+				"scaleImage"	"1"
+			}
 			"NemesisLabel"
-			{	
+			{
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel"
 				"font"			"HudFontMediumSmall"
@@ -240,7 +165,7 @@
 				"textAlignment"		"west"
 			}
 			"NemesisLabel2"
-			{	
+			{
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel2"
 				"font"			"DefaultSmall"
@@ -258,7 +183,7 @@
 			}
 		}
 	}
-		
+
 	"ScreenshotPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -269,7 +194,7 @@
 		"wide"			"166"
 		"tall"			"40"
 		"visible"		"0"
-			
+
 		"ScreenshotPanelBG"
 		{
 			"ControlName"		"ImagePanel"
@@ -296,10 +221,10 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/ico_camera"
-			"scaleImage"	"1"	
-		}		
+			"scaleImage"	"1"
+		}
 		"ScreenshotLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"ScreenshotLabel"
 			"font"			"SpectatorKeyHints"
@@ -317,5 +242,5 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
-	}	
+	}
 }
