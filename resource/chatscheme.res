@@ -217,7 +217,7 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
-
+		"isproportional" "only"
 		"Default"
 		{
 			"1"
@@ -257,10 +257,9 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"18"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -313,6 +312,7 @@ Scheme
 
 		"ChatFont"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Verdana"
@@ -352,11 +352,11 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"20"	[$WIN32]
+				"tall"		"8"	[$WIN32]
 				"tall"		"25"	[$X360]
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"weight"	"300"
 				"dropshadow"	"1"
+				"antialias" 	"1"
 			}
 		}
 
